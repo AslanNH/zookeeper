@@ -82,8 +82,9 @@ public class CuratorClientTest {
 			
 		});
 	}
+	@SuppressWarnings("resource")
 	public void addChildWatcher(String path) throws Exception {
-		@SuppressWarnings("resource")
+		
 		final PathChildrenCache cache = new PathChildrenCache(this.client,
 				path, true);
 		cache.start(StartMode.POST_INITIALIZED_EVENT);
