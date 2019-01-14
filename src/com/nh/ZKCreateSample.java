@@ -31,7 +31,7 @@ public class ZKCreateSample implements Watcher{
 		//testGetChildren();
 		//testGetData();
 		//testSetData();
-		testDelete();
+		//testDelete();
 	}
 	/**
 	 * Á´½Ózk·şÎñÆ÷

@@ -8,5 +8,8 @@
 	<classpathentry kind="lib" path="lib/slf4j-api-1.6.1.jar"/>
 	<classpathentry kind="lib" path="lib/slf4j-log4j12-1.6.1.jar"/>
 	<classpathentry kind="lib" path="lib/zookeeper-3.4.10.jar"/>
+	<classpathentry kind="lib" path="lib/curator-framework-4.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/curator-recipes-4.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/curator-client-4.1.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
